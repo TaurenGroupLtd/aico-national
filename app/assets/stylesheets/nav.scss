@@ -33,6 +33,21 @@
     border-bottom: 3px solid #27627A;
   }
 
+  .NavItemBtn{
+    margin-top: 1%;
+    font-family: 'clinica_proregular';
+    font-weight: bold;
+    color: #FF0000;
+    border-color: #FF0000;
+  }
+  .NavItemBtn:hover{
+    margin-top: 1%;
+    font-family: 'clinica_proregular';
+    font-weight: bold;
+    color: #FFFFFF;
+    background-color: #FF0000;
+    border-color: #FF0000;
+  }
   // changes Nav collapse width to 1080px;
 
 
