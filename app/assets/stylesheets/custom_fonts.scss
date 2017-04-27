@@ -2,8 +2,8 @@
 // Used for all Navbar and page headers
 @font-face {
     font-family: 'clinica_proregular';
-    src: url('clinicapro-regular-webfont.woff2') format('woff2'),
-         url('clinicapro-regular-webfont.woff') format('woff');
+    src: font-url('clinicapro-regular-webfont.woff2') format('woff2'),
+         font-url('clinicapro-regular-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
@@ -12,8 +12,8 @@
 // Used for all Body elements and other text
 @font-face {
     font-family: 'latolight';
-    src: url('lato-light-webfont.woff2') format('woff2'),
-         url('lato-light-webfont.woff') format('woff');
+    src: font-url('lato-light-webfont.woff2') format('woff2'),
+         font-url('lato-light-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
@@ -21,8 +21,8 @@
 
 @font-face {
     font-family: 'latoheavy';
-    src: url('lato-heavy-webfont.woff2') format('woff2'),
-         url('lato-heavy-webfont.woff') format('woff');
+    src: font-url('lato-heavy-webfont.woff2') format('woff2'),
+         font-url('lato-heavy-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
