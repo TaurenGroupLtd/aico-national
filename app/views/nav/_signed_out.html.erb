@@ -14,15 +14,15 @@
               <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle NavItem" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Services</a>
                 <div class="dropdown-menu" aria-labelledby="Preview">
-                  <a class="dropdown-item" href="http://birchhilldevelopments.com/">Design Build - Birch Hill</a>
-                  <a class="dropdown-item" href="/aico/elemental">Wind &amp; Hail Restoration</a>
-                  <a class="dropdown-item" href="/aico/water">Water Damage Restoration</a>
-                  <a class="dropdown-item" href="/aico/fire">Fire Damage Restoration</a>
-                  <a class="dropdown-item" href="/aico/general_contracting">General Contracting</a>
-                  <a class="dropdown-item" href="/aico/mold">Mold Abatement</a>
-                  <a class="dropdown-item" href="/aico/asbestos">Aabestos Abatement</a>
-                  <a class="dropdown-item" href="/aico/biohazard">Biohazard Remediation</a>
-                  <a class="dropdown-item" href="/aico/grow_op">Grow Op Restoration</a>
+                  <%= link_to "Design Build - Birch Hill", "http://birchhilldevelopments.com", :class => 'dropdown-item' %>
+                  <%= link_to "Wind & Hail Restoration", aico_elemental_path, :class => 'dropdown-item' %>
+                  <%= link_to "Water Damage Restoration", aico_water_path, :class => 'dropdown-item' %>
+                  <%= link_to "Fire Damage Restoration", aico_fire_path, :class => 'dropdown-item' %>
+                  <%= link_to "General Contracting", aico_general_contracting_path, :class => 'dropdown-item' %>
+                  <%= link_to "Mold Abatement", aico_mold_path, :class => 'dropdown-item' %>
+                  <%= link_to "Aabestos Abatement", aico_asbestos_path, :class => 'dropdown-item' %>
+                  <%= link_to "Biohazard Remediation", aico_biohazard_path, :class => 'dropdown-item' %>
+                  <%= link_to "Grow Op Restoration", aico_grow_op_path, :class => 'dropdown-item' %>
                 </div>
               </li>
                 <%= link_to 'Locations', '#', :class => 'nav-link NavItem' %>
