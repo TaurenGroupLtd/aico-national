@@ -1,0 +1,59 @@
+  .socialNav{
+    background-color: #FFFFFF;
+  }
+  .navbar{
+    padding-left: 3%;
+    padding-right: 3%;
+    background-color: #FFFFFF;
+  }
+  .navbar-brand {
+    float: none;
+    }
+
+  .navbar-center{
+    position: absolute;
+    width: 100%;
+    left: 0;
+    top: 0;
+    text-align: center;
+    margin: auto;
+    height:100%;
+  }
+
+  .NavItem{
+    font-family: 'clinica_proregular';
+    font-weight: bold;
+    color: #2A3A5F;
+    border-bottom: 3px solid #FFFFFF;
+  }
+  .NavItem:hover{
+    font-family: 'clinica_proregular';
+    font-weight: bold;
+    color: #27627A;
+    border-bottom: 3px solid #27627A;
+  }
+
+  // changes Nav collapse width to 1080px;
+
+
+  // Responsive Nav Elements
+    //small screen
+  @media screen and (min-width: 0em){
+    .aicoBrandLogo{
+      height: 50px;
+    }
+  }
+    //medium screen
+  @media screen and (min-width: 48em){
+    .aicoBrandLogo{
+      height: 75px;
+    }
+  }
+    //large screen
+  @media screen and (min-width: 62em) {
+
+  }
+    //extra large screen
+  @media screen and (min-width: 75em) {
+
+  }

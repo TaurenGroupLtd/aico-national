@@ -1,0 +1,67 @@
+.carouselImg{
+  height: 625px;
+  width: 100%;
+}
+
+#carouselTitle{
+  font-family: 'clinica_proregular';
+  font-weight: bold;
+}
+
+#carouselText{
+  font-family: 'latolight';
+  font-weight: bold;
+}
+
+.carousel-caption{
+  top: 25%;
+  transform: translateY(-25%);
+  bottom: initial;
+  -webkit-transform-style: preserve-3d;
+  -moz-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+}
+
+.link-left{
+  margin-right: 5%;
+}
+
+.link-right{
+  margin-left: 5%;
+}
+
+.learnMoreLink{
+  font-family: 'clinica_proregular';
+  margin-top: 50px;
+  padding-left: 10%;
+  padding-right: 10%;
+  color: #FFFFFF;
+  border-color: #FFFFFF;
+}
+.learnMoreLink:hover{
+  font-family: 'clinica_proregular';
+  margin-top: 50px;
+  padding-left: 10%;
+  padding-right: 10%;
+  color: #FFFFFF;
+  background-color: #2A3A5F;
+  border-color: #FFFFFF;
+}
+
+.contactUs{
+  font-family: 'clinica_proregular';
+  margin-top: 50px;
+  padding-left: 10%;
+  padding-right: 10%;
+  color: #FFFFFF;
+  border-color: #FFFFFF;
+}
+.contactUs:hover{
+  font-family: 'clinica_proregular';
+  margin-top: 50px;
+  padding-left: 10%;
+  padding-right: 10%;
+  color: #FFFFFF;
+  background-color: #27627A;
+  border-color: #FFFFFF;
+}

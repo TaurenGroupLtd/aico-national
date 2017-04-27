@@ -1,0 +1,58 @@
+<nav id="topNav" class="navbar fixed-top navbar-toggleable-sm">
+    <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target=".navbar-collapse">
+        ☰
+    </button>
+    <div class="navbar-collapse collapse">
+        <ul class="nav navbar-nav">
+            <li class="nav-item">
+                <%= link_to 'Home', root_path, :class => 'nav-link NavItem' %>
+            </li>
+            <li class="nav-item">
+                <%= link_to 'Why AICO?', aico_about_path, :class => 'nav-link NavItem' %>
+            </li>
+            <li class="nav-item">
+              <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle NavItem" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Services</a>
+                <div class="dropdown-menu" aria-labelledby="Preview">
+                  <a class="dropdown-item" href="http://birchhilldevelopments.com/">Design Build - Birch Hill</a>
+                  <a class="dropdown-item" href="/aico/elemental">Wind &amp; Hail Restoration</a>
+                  <a class="dropdown-item" href="/aico/water">Water Damage Restoration</a>
+                  <a class="dropdown-item" href="/aico/fire">Fire Damage Restoration</a>
+                  <a class="dropdown-item" href="/aico/general_contracting">General Contracting</a>
+                  <a class="dropdown-item" href="/aico/mold">Mold Abatement</a>
+                  <a class="dropdown-item" href="/aico/asbestos">Aabestos Abatement</a>
+                  <a class="dropdown-item" href="/aico/biohazard">Biohazard Remediation</a>
+                  <a class="dropdown-item" href="/aico/grow_op">Grow Op Restoration</a>
+                </div>
+              </li>
+                <%= link_to 'Locations', '#', :class => 'nav-link NavItem' %>
+            </li>
+            <li class="nav-item">
+                <%= link_to 'Blog', '#', :class => 'nav-link NavItem' %>
+            </li>
+            <li class="nav-item hidden-md-up">
+                <%= link_to 'Free Estimate', '#', :class => 'nav-link NavItem' %>
+            </li>
+            <li class="nav-item hidden-md-up">
+                <%= link_to '24/7 Emergency Response', '#', :class => 'nav-link NavItem' %>
+            </li>
+            <li class="nav-item hidden-md-up">
+                <%= link_to 'Login', '#', :class => 'nav-link NavItem' %>
+            </li>
+        </ul>
+    </div>
+    <%= image_tag('aico-logo.png', :class => 'navbar-brand mx-auto aicoBrandLogo') %>
+    <div class="navbar-collapse collapse">
+        <ul class="nav navbar-nav ml-auto">
+          <li class="nav-item">
+              <%= link_to 'Free Estimate', '#', :class => 'nav-link NavItem' %>
+          </li>
+          <li class="nav-item">
+              <%= link_to '24/7 Emergency Response', '#', :class => 'nav-link NavItem' %>
+          </li>
+          <li class="nav-item">
+              <%= link_to 'Login', '#', :class => 'nav-link NavItem' %>
+          </li>
+        </ul>
+    </div>
+</nav>

@@ -1,0 +1,32 @@
+  // Home Page
+  .svcIcon{
+    color: #27627A;
+  }
+  .svcText{
+    font-family: 'latoheavy';
+    color: #27627A;
+  }
+
+  // Responsive Nav Elements
+    //small screen
+  @media screen and (min-width: 0em){
+    .svcIcon{
+      color: #27627A;
+    }
+    .svcText{
+      font-family: 'latoheavy';
+      color: #27627A;
+    }
+  }
+    //medium screen
+  @media screen and (min-width: 48em){
+
+  }
+    //large screen
+  @media screen and (min-width: 62em) {
+
+  }
+    //extra large screen
+  @media screen and (min-width: 75em) {
+
+  }

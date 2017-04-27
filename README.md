@@ -1,24 +1,32 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
 Things you may want to cover:
 
-* Ruby version
+* Website Color Scheme:
+- Primary Color: `#2A3A5F` - Dark Blue
+- Secondary Color: `#27627A` - Greenish Blue
 
-* System dependencies
+* Website Font Dictionary
+- Navbar and Headings: `font-family: 'clinica_proregular';`
+- Body and other text: `font-family: 'latolight';`
+- Icon Sub Headers: `font-family: 'latoheavy';`
 
-* Configuration
+* Media Queries Used in this Project:
 
-* Database creation
+`// Responsive Nav Elements
+  //small screen
+@media screen and (min-width: 0em){
 
-* Database initialization
+}
+  //medium screen
+@media screen and (min-width: 48em){
 
-* How to run the test suite
+}
+  //large screen
+@media screen and (min-width: 62em) {
 
-* Services (job queues, cache servers, search engines, etc.)
+}
+  //extra large screen
+@media screen and (min-width: 75em) {
 
-* Deployment instructions
-
-* ...
+}`

@@ -11,4 +11,24 @@
  * It is generally better to create a new file per style scope.
  *
  *= require bootstrap_custom
+ *= require custom_fonts
+ *= require aico
+ *= require nav
+ *= require home_carousel
+ *= require icons
+ *= require footer
+ *= require about
+ *= require water
+ *= require fire
+ *= require mold
+ *= require asbestos
+ *= require biohazard
+ *= require grow_op
+ *= require elemental
+ *= require general_contracting
  */
+
+  body{
+    height: 100%;
+    padding-top: 90px; // Navbar height offset
+  }

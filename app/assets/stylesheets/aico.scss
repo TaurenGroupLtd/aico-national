@@ -1,0 +1,116 @@
+// Home Page aico.ca/
+  .homeCarousel{
+    height: 100%;
+    width: 100%;
+  }
+
+  .aicoIntroHeader{
+    padding-top: 17%;
+    font-family: 'clinica_proregular';
+    color: #FFFFFF;
+  }
+
+  .aicoIntroBody{
+    font-family: 'latolight';
+    color: #FFFFFF;
+  }
+
+  .aicoIntroContactBtn{
+    font-family: 'clinica_proregular';
+    border-color: #FFFFFF;
+    color: #FFFFFF;
+    padding-left: 25%;
+    padding-right: 25%;
+  }
+  .aicoIntroContactBtn:hover{
+    font-family: 'clinica_proregular';
+    border-color: #27627A;
+    color: #FFFFFF;
+    background-color: #27627A;
+    padding-left: 25%;
+    padding-right: 25%;
+  }
+
+  .aicoServicesHeader{
+    font-family: 'clinica_proregular';
+    color: #2A3A5F;
+    padding-top: 5%;
+    padding-bottom: 3%;
+  }
+
+  .aicoSvcCallBtn{
+    margin-top: 5%;
+    font-family: 'clinica_proregular';
+    border-color: #2A3A5F;
+    color: #2A3A5F;
+    padding-left: 25%;
+    padding-right: 25%;
+  }
+  .aicoSvcCallBtn:hover{
+    font-family: 'clinica_proregular';
+    font-family: 'clinica_proregular';
+    border-color: #27627A;
+    color: #FFFFFF;
+    background-color: #27627A;
+    padding-left: 25%;
+    padding-right: 25%;
+  }
+
+  .aicoChooseUsHeader{
+    font-family: 'clinica_proregular';
+    color: #FFFFFF;
+    padding-top: 10%;
+    padding-bottom: 3%;
+  }
+
+  // Responsive Aico Elements
+    //small screen
+  @media screen and (min-width: 0em){
+    .aicoHome1{
+      height: 500px;
+      background-color: #2A3A5F;
+      border-top: 5px solid #27627A;
+      border-bottom: 5px solid #27627A;
+    }
+
+    .aicoHome2{
+      height: 800px;
+      background-color: #FFFFFF;
+      border-bottom: 5px solid #27627A;
+    }
+
+    .aicoHome3{
+      height: 675px;
+      background-color: #2A3A5F;
+      border-bottom: 5px solid #27627A;
+    }
+  }
+    //medium screen
+  @media screen and (min-width: 48em){
+    .aicoHome1{
+      height: 638px;
+      background-color: #2A3A5F;
+      border-top: 5px solid #27627A;
+      border-bottom: 5px solid #27627A;
+    }
+
+    .aicoHome2{
+      height: 400px;
+      background-color: #FFFFFF;
+      border-bottom: 5px solid #27627A;
+    }
+
+    .aicoHome3{
+      height: 638px;
+      background-color: #2A3A5F;
+      border-bottom: 5px solid #27627A;
+    }
+  }
+    //large screen
+  @media screen and (min-width: 62em) {
+
+  }
+    //extra large screen
+  @media screen and (min-width: 75em) {
+
+  }

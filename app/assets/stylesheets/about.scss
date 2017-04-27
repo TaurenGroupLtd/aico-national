@@ -1,0 +1,47 @@
+  .aboutParallax{
+    /* The image used */
+    background-image: url("about_image.jpeg");
+
+    /* Set a specific height */
+    height: 350px;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .aboutHeader{
+    padding-top: 10%;
+    color: #FFFFFF;
+    font-family: 'clinica_proregular';
+  }
+
+  .about1{
+    height: 600px;
+    background-color: #2A3A5F;
+    border-top: 5px solid #27627A;
+    border-bottom: 5px solid #27627A;
+  }
+
+  .aboutSubHeaders{
+    padding-top: 5%;
+    color: #FFFFFF;
+    font-family: 'clinica_proregular';
+  }
+
+  .aboutText{
+    color: #FFFFFF;
+    font-family: 'latolight';
+  }
+
+  .iicrcLink{
+    color: #FFFFFF;
+    font-family: 'latolight';
+  }
+
+  .iicrcLink:hover{
+    color: #FFFFFF;
+    font-family: 'latolight';
+  }
