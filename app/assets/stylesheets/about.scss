@@ -1,17 +1,3 @@
-  .aboutParallax{
-    /* The image used */
-    background-image: url("about_image.jpeg");
-
-    /* Set a specific height */
-    height: 350px;
-
-    /* Create the parallax scrolling effect */
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
-
   .aboutHeader{
     padding-top: 10%;
     color: #FFFFFF;
