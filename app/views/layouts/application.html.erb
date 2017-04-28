@@ -15,6 +15,37 @@
 
   <header>
     <%= render partial: 'nav/signed_out' %>
+    <% if flash[:success] %>
+    <div class="alert alert-success alert-dismissible fade show" role="alert">
+      <div class="container">
+        <center><strong><%= flash[:success] %></center></strong>
+      </div>
+    </div>
+    <% elsif flash[:notice] %>
+    <div class="alert alert-success alert-dismissible fade show" role="alert">
+      <div class="container">
+        <center><strong><%= flash[:notice] %></center></strong>
+      </div>
+    </div>
+    <% elsif flash[:info] %>
+    <div class="alert alert-info alert-dismissible fade show" role="alert">
+      <div class="container">
+        <center><strong><%= flash[:info] %></center></strong>
+      </div>
+    </div>
+    <% elsif flash[:warning] %>
+    <div class="alert alert-warning alert-dismissible fade show" role="alert">
+      <div class="container">
+        <center><strong><%= flash[:warning] %></center></strong>
+      </div>
+    </div>
+    <% elsif flash[:danger] %>
+    <div class="alert alert-danger alert-dismissible fade show" role="alert">
+      <div class="container">
+        <center><strong><%= flash[:danger] %></center></strong>
+      </div>
+    </div>
+    <% end %>
   </header>
 
   <body>
@@ -22,7 +53,6 @@
   </body>
 
   <%= render partial: 'footer/footer' %>
-
   <!-- Scripts -->
 
   <!-- Google Code for Aico.ca Conversion Page -->
@@ -56,6 +86,12 @@
       js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.9";
       fjs.parentNode.insertBefore(js, fjs);
     }(document, 'script', 'facebook-jssdk'));
+  </script>
+
+  <script>
+    $(".alert").delay(5000).slideUp(400, function() {
+        $(this).alert('close');
+    });
   </script>
 
 </html>

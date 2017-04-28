@@ -1,4 +1,8 @@
 Rails.application.routes.draw do
+
+  devise_for :users
+  resources :locations
+
   root 'aico#home'
 
   get 'aico/fire'
@@ -12,6 +16,6 @@ Rails.application.routes.draw do
   get 'aico/about'
   get 'aico/grow_op'
 
-  get 'contact-me', to: 'messages#new', as: 'new_message'
-  post 'contact-me', to: 'messages#create', as: 'create_message'
+  get 'contact-us', to: 'messages#new', as: 'new_message'
+  post 'contact-us', to: 'messages#create', as: 'create_message'
 end

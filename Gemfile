@@ -21,13 +21,16 @@ group :development, :production do
   source 'https://rails-assets.org' do
     gem 'rails-assets-tether', '>= 1.3.3'
   end
-
   # User Authentication
   gem 'devise'
   # Favicon
   gem 'rails_real_favicon'
   # ENV Variables
-  gem "figaro"
+  gem 'figaro'
+  # Geo Location
+  gem 'geocoder'
+  gem 'gmaps4rails'
+  gem 'underscore-rails'
 end
 
 group :development, :test do

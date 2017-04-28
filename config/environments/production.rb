@@ -82,19 +82,19 @@ Rails.application.configure do
   end
 
   # Do not dump schema after migrations.
-  config.active_record.dump_schema_after_migration = false
-
-  config.action_mailer.perform_deliveries = true
   config.action_mailer.raise_delivery_errors = false
-  config.action_mailer.default_url_options = { host: "www.aico.ca"}
-  config.action_mailer.delivery_method = :smtp
-  config.action_mailer.smtp_settings = {
-    user_name:      ENV['GMAIL_USER_NAME'],
-    password:       ENV['GMAIL_PASSWORD'],
-    domain:         ENV['MAIL_HOST'],
-    address:       'smtp.gmail.com',
-    port:          '587',
-    authentication: :plain,
-    enable_starttls_auto: true
-  }
+    config.action_mailer.perform_deliveries = true
+
+    config.action_mailer.default_url_options = { :host => 'www.aico.ca' }
+
+    config.action_mailer.delivery_method = :smtp
+    config.action_mailer.smtp_settings = {
+      :address => "smtp.gmail.com",
+      :port => ENV["GMAIL_PORT"],
+      :domain => ENV["GMAIL_DOMAIN"],
+      :user_name => ENV["GMAIL_USER_NAME"],
+      :password => ENV["GMAIL_PASSWORD"],
+      :authentication => ENV["GMAIL_AUTHENTICATION"],
+      :enable_starttls_auto => true
+    }
 end

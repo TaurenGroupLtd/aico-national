@@ -1,0 +1,107 @@
+<%= form_for(location) do |f| %>
+  <% if location.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(location.errors.count, "error") %> prohibited this location from being saved:</h2>
+
+      <ul>
+      <% location.errors.full_messages.each do |message| %>
+        <li><%= message %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= f.label :unit_number %>
+    <%= f.text_field :unit_number %>
+  </div>
+
+  <div class="field">
+    <%= f.label :street_number %>
+    <%= f.text_field :street_number %>
+  </div>
+
+  <div class="field">
+    <%= f.label :street_name %>
+    <%= f.text_field :street_name %>
+  </div>
+
+  <div class="field">
+    <%= f.label :quad %>
+    <%= f.text_field :quad %>
+  </div>
+
+  <div class="field">
+    <%= f.label :city %>
+    <%= f.text_field :city %>
+  </div>
+
+  <div class="field">
+    <%= f.label :province %>
+    <%= f.text_field :province %>
+  </div>
+
+  <div class="field">
+    <%= f.label :postal_code %>
+    <%= f.text_field :postal_code %>
+  </div>
+
+  <div class="field">
+    <%= f.label :local_tel %>
+    <%= f.text_field :local_tel %>
+  </div>
+
+  <div class="field">
+    <%= f.label :toll_free %>
+    <%= f.text_field :toll_free %>
+  </div>
+
+  <div class="field">
+    <%= f.label :new_build %>
+    <%= f.check_box :new_build %>
+  </div>
+
+  <div class="field">
+    <%= f.label :exteriors %>
+    <%= f.check_box :exteriors %>
+  </div>
+
+  <div class="field">
+    <%= f.label :general_contracting %>
+    <%= f.check_box :general_contracting %>
+  </div>
+
+  <div class="field">
+    <%= f.label :flood %>
+    <%= f.check_box :flood %>
+  </div>
+
+  <div class="field">
+    <%= f.label :water %>
+    <%= f.check_box :water %>
+  </div>
+
+  <div class="field">
+    <%= f.label :asbestos %>
+    <%= f.check_box :asbestos %>
+  </div>
+
+  <div class="field">
+    <%= f.label :wind_hail %>
+    <%= f.check_box :wind_hail %>
+  </div>
+
+  <div class="field">
+    <%= f.label :biohazard %>
+    <%= f.check_box :biohazard %>
+  </div>
+
+  <div class="field">
+    <%= f.label :grow_op %>
+    <%= f.check_box :grow_op %>
+  </div>
+
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>

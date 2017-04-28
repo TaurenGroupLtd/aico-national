@@ -1,0 +1,41 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  unit_number: MyString
+  street_number: MyString
+  street_name: MyString
+  quad: MyString
+  city: MyString
+  province: MyString
+  postal_code: MyString
+  local_tel: MyString
+  toll_free: MyString
+  new_build: false
+  exteriors: false
+  general_contracting: false
+  flood: false
+  water: false
+  asbestos: false
+  wind_hail: false
+  biohazard: false
+  grow_op: false
+
+two:
+  unit_number: MyString
+  street_number: MyString
+  street_name: MyString
+  quad: MyString
+  city: MyString
+  province: MyString
+  postal_code: MyString
+  local_tel: MyString
+  toll_free: MyString
+  new_build: false
+  exteriors: false
+  general_contracting: false
+  flood: false
+  water: false
+  asbestos: false
+  wind_hail: false
+  biohazard: false
+  grow_op: false
