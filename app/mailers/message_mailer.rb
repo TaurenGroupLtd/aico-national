@@ -13,7 +13,7 @@ class MessageMailer < ApplicationMailer
     @body = message.body
     @tel = message.tel
 
-    mail to: "aicoappnotification@gmail.com"
+    mail to: "shawn@aico.ca"
   end
 
 end
