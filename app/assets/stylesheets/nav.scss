@@ -48,6 +48,21 @@
     background-color: #FF0000;
     border-color: #FF0000;
   }
+
+  .lgDropdown{
+    width: 800px;
+  }
+
+  a.dropdown-item{
+    font-family: 'clinica_proregular';
+    font-weight: bold;
+    color: #2A3A5F;
+  }
+  a.dropdown-item:hover{
+    font-family: 'clinica_proregular';
+    font-weight: bold;
+    color: #27627A;
+  }
   // changes Nav collapse width to 1080px;
 
 
