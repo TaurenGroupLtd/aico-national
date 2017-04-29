@@ -15,6 +15,6 @@
 //= require tether
 //= require bootstrap-sprockets
 //= require turbolinks
-//= require underscore
+//= require lodash
 //= require gmaps/google
 //= require_tree .

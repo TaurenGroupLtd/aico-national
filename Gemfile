@@ -30,7 +30,7 @@ group :development, :production do
   # Geo Location
   gem 'geocoder'
   gem 'gmaps4rails'
-  gem 'underscore-rails'
+  gem 'lodash-rails'
 end
 
 group :development, :test do
