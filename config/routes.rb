@@ -1,9 +1,18 @@
 Rails.application.routes.draw do
 
   devise_for :users
-  resources :locations
 
-  root 'aico#home'
+  devise_scope :user do
+    authenticated :user do
+      root 'dashboard#home', as: :authenticated_root
+    end
+
+    unauthenticated do
+      root 'aico#home', as: :unauthenticated_root
+    end
+  end
+
+  resources :locations
 
   get 'aico/fire'
   get 'aico/water'

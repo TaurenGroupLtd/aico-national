@@ -17,7 +17,12 @@
   </head>
 
   <header>
-    <%= render partial: 'nav/signed_out' %>
+    <% if user_signed_in? %>
+      <%= render partial: 'nav/signed_in' %>
+    <% else %>
+      <%= render partial: 'nav/signed_out' %>
+    <% end %>
+
     <% if flash[:success] %>
     <div class="alert alert-success alert-dismissible fade show" role="alert">
       <div class="container">
