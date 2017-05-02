@@ -8,7 +8,7 @@ class MessagesController < ApplicationController
 
     if @message.valid?
       MessageMailer.contact_me(@message).deliver_now
-      redirect_to root_path, notice: "Thanks for your interest in AICO. Please allow us 24 hours to get back to you!"
+      redirect_to authenticated_root_path, notice: "Thanks for your interest in AICO. Please allow us 24 hours to get back to you!"
     else
       render :new
     end

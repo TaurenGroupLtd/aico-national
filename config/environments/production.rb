@@ -85,7 +85,7 @@ Rails.application.configure do
   config.action_mailer.raise_delivery_errors = false
     config.action_mailer.perform_deliveries = true
 
-    config.action_mailer.default_url_options = { :host => 'www.aico.ca' }
+    config.action_mailer.default_url_options = { :host => 'aico.ca' }
 
     config.action_mailer.delivery_method = :smtp
     config.action_mailer.smtp_settings = {
@@ -94,7 +94,7 @@ Rails.application.configure do
       :domain => ENV["GMAIL_DOMAIN"],
       :user_name => ENV["GMAIL_USER_NAME"],
       :password => ENV["GMAIL_PASSWORD"],
-      :authentication => ENV["GMAIL_AUTHENTICATION"],
+      :authentication => "plain",
       :enable_starttls_auto => true
     }
 end
