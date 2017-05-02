@@ -1,0 +1,32 @@
+/* line 1, /Users/taurenltd/Desktop/Tauren Group Projects/aico_construction/app/assets/stylesheets/grow_op.scss */
+.growOpServices {
+  height: 578px;
+  background-color: #2A3A5F;
+  border-bottom: 5px solid #27627A;
+  border-top: 5px solid #27627A;
+}
+
+/* line 8, /Users/taurenltd/Desktop/Tauren Group Projects/aico_construction/app/assets/stylesheets/grow_op.scss */
+.waterIconHeader {
+  margin-top: 5%;
+  color: #FFFFFF;
+  font-family: 'clinica_proregular';
+}
+
+/* line 14, /Users/taurenltd/Desktop/Tauren Group Projects/aico_construction/app/assets/stylesheets/grow_op.scss */
+.waterIcon {
+  padding-top: 5%;
+  color: #FFFFFF;
+}
+
+/* line 19, /Users/taurenltd/Desktop/Tauren Group Projects/aico_construction/app/assets/stylesheets/grow_op.scss */
+.iconDescription {
+  color: #FFFFFF;
+  font-family: "latoheavy";
+}
+
+/* line 24, /Users/taurenltd/Desktop/Tauren Group Projects/aico_construction/app/assets/stylesheets/grow_op.scss */
+.iconSubHeader {
+  color: #FFFFFF;
+  font-family: 'latolight';
+}

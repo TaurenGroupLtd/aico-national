@@ -1,0 +1,39 @@
+/* line 1, /Users/taurenltd/Desktop/Tauren Group Projects/aico_construction/app/assets/stylesheets/about.scss */
+.aboutHeader {
+  padding-top: 10%;
+  color: #FFFFFF;
+  font-family: 'clinica_proregular';
+}
+
+/* line 7, /Users/taurenltd/Desktop/Tauren Group Projects/aico_construction/app/assets/stylesheets/about.scss */
+.about1 {
+  height: 600px;
+  background-color: #2A3A5F;
+  border-top: 5px solid #27627A;
+  border-bottom: 5px solid #27627A;
+}
+
+/* line 14, /Users/taurenltd/Desktop/Tauren Group Projects/aico_construction/app/assets/stylesheets/about.scss */
+.aboutSubHeaders {
+  padding-top: 5%;
+  color: #FFFFFF;
+  font-family: 'clinica_proregular';
+}
+
+/* line 20, /Users/taurenltd/Desktop/Tauren Group Projects/aico_construction/app/assets/stylesheets/about.scss */
+.aboutText {
+  color: #FFFFFF;
+  font-family: 'latolight';
+}
+
+/* line 25, /Users/taurenltd/Desktop/Tauren Group Projects/aico_construction/app/assets/stylesheets/about.scss */
+.iicrcLink {
+  color: #FFFFFF;
+  font-family: 'latolight';
+}
+
+/* line 30, /Users/taurenltd/Desktop/Tauren Group Projects/aico_construction/app/assets/stylesheets/about.scss */
+.iicrcLink:hover {
+  color: #FFFFFF;
+  font-family: 'latolight';
+}

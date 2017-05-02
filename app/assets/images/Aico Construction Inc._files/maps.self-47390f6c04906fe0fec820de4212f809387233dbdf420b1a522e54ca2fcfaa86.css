@@ -1,0 +1,10 @@
+/* line 1, /Users/taurenltd/Desktop/Tauren Group Projects/aico_construction/app/assets/stylesheets/maps.scss */
+.locationsMapDiv {
+  width: 100%;
+}
+
+/* line 4, /Users/taurenltd/Desktop/Tauren Group Projects/aico_construction/app/assets/stylesheets/maps.scss */
+.locationsMap {
+  width: 100%;
+  height: 300px;
+}

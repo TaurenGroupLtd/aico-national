@@ -1,0 +1,94 @@
+/* line 1, /Users/taurenltd/Desktop/Tauren Group Projects/aico_construction/app/assets/stylesheets/nav.scss */
+.socialNav {
+  background-color: #FFFFFF;
+}
+
+/* line 4, /Users/taurenltd/Desktop/Tauren Group Projects/aico_construction/app/assets/stylesheets/nav.scss */
+.navbar {
+  padding-left: 3%;
+  padding-right: 3%;
+  background-color: #FFFFFF;
+}
+
+/* line 9, /Users/taurenltd/Desktop/Tauren Group Projects/aico_construction/app/assets/stylesheets/nav.scss */
+.navbar-brand {
+  float: none;
+}
+
+/* line 13, /Users/taurenltd/Desktop/Tauren Group Projects/aico_construction/app/assets/stylesheets/nav.scss */
+.navbar-center {
+  position: absolute;
+  width: 100%;
+  left: 0;
+  top: 0;
+  text-align: center;
+  margin: auto;
+  height: 100%;
+}
+
+/* line 23, /Users/taurenltd/Desktop/Tauren Group Projects/aico_construction/app/assets/stylesheets/nav.scss */
+.NavItem {
+  font-family: 'clinica_proregular';
+  font-weight: bold;
+  color: #2A3A5F;
+  border-bottom: 3px solid #FFFFFF;
+}
+
+/* line 29, /Users/taurenltd/Desktop/Tauren Group Projects/aico_construction/app/assets/stylesheets/nav.scss */
+.NavItem:hover {
+  font-family: 'clinica_proregular';
+  font-weight: bold;
+  color: #27627A;
+  border-bottom: 3px solid #27627A;
+}
+
+/* line 36, /Users/taurenltd/Desktop/Tauren Group Projects/aico_construction/app/assets/stylesheets/nav.scss */
+.NavItemBtn {
+  margin-top: 1%;
+  font-family: 'clinica_proregular';
+  font-weight: bold;
+  color: #FF0000;
+  border-color: #FF0000;
+}
+
+/* line 43, /Users/taurenltd/Desktop/Tauren Group Projects/aico_construction/app/assets/stylesheets/nav.scss */
+.NavItemBtn:hover {
+  margin-top: 1%;
+  font-family: 'clinica_proregular';
+  font-weight: bold;
+  color: #FFFFFF;
+  background-color: #FF0000;
+  border-color: #FF0000;
+}
+
+/* line 52, /Users/taurenltd/Desktop/Tauren Group Projects/aico_construction/app/assets/stylesheets/nav.scss */
+.lgDropdown {
+  width: 800px;
+}
+
+/* line 56, /Users/taurenltd/Desktop/Tauren Group Projects/aico_construction/app/assets/stylesheets/nav.scss */
+a.dropdown-item {
+  font-family: 'clinica_proregular';
+  font-weight: bold;
+  color: #2A3A5F;
+}
+
+/* line 61, /Users/taurenltd/Desktop/Tauren Group Projects/aico_construction/app/assets/stylesheets/nav.scss */
+a.dropdown-item:hover {
+  font-family: 'clinica_proregular';
+  font-weight: bold;
+  color: #27627A;
+}
+
+@media screen and (min-width: 0em) {
+  /* line 72, /Users/taurenltd/Desktop/Tauren Group Projects/aico_construction/app/assets/stylesheets/nav.scss */
+  .aicoBrandLogo {
+    height: 50px;
+  }
+}
+@media screen and (min-width: 48em) {
+  /* line 78, /Users/taurenltd/Desktop/Tauren Group Projects/aico_construction/app/assets/stylesheets/nav.scss */
+  .aicoBrandLogo {
+    height: 75px;
+  }
+}

@@ -1,0 +1,79 @@
+/* line 1, /Users/taurenltd/Desktop/Tauren Group Projects/aico_construction/app/assets/stylesheets/home_carousel.scss */
+.carouselImg {
+  height: 625px;
+  width: 100%;
+}
+
+/* line 6, /Users/taurenltd/Desktop/Tauren Group Projects/aico_construction/app/assets/stylesheets/home_carousel.scss */
+#carouselTitle {
+  font-family: 'clinica_proregular';
+  font-weight: bold;
+}
+
+/* line 11, /Users/taurenltd/Desktop/Tauren Group Projects/aico_construction/app/assets/stylesheets/home_carousel.scss */
+#carouselText {
+  font-family: 'latolight';
+  font-weight: bold;
+}
+
+/* line 16, /Users/taurenltd/Desktop/Tauren Group Projects/aico_construction/app/assets/stylesheets/home_carousel.scss */
+.carousel-caption {
+  top: 25%;
+  -webkit-transform: translateY(-25%);
+          transform: translateY(-25%);
+  bottom: initial;
+  -webkit-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+}
+
+/* line 25, /Users/taurenltd/Desktop/Tauren Group Projects/aico_construction/app/assets/stylesheets/home_carousel.scss */
+.link-left {
+  margin-right: 5%;
+}
+
+/* line 29, /Users/taurenltd/Desktop/Tauren Group Projects/aico_construction/app/assets/stylesheets/home_carousel.scss */
+.link-right {
+  margin-left: 5%;
+}
+
+/* line 33, /Users/taurenltd/Desktop/Tauren Group Projects/aico_construction/app/assets/stylesheets/home_carousel.scss */
+.learnMoreLink {
+  font-family: 'clinica_proregular';
+  margin-top: 50px;
+  padding-left: 10%;
+  padding-right: 10%;
+  color: #FFFFFF;
+  border-color: #FFFFFF;
+}
+
+/* line 41, /Users/taurenltd/Desktop/Tauren Group Projects/aico_construction/app/assets/stylesheets/home_carousel.scss */
+.learnMoreLink:hover {
+  font-family: 'clinica_proregular';
+  margin-top: 50px;
+  padding-left: 10%;
+  padding-right: 10%;
+  color: #FFFFFF;
+  background-color: #2A3A5F;
+  border-color: #FFFFFF;
+}
+
+/* line 51, /Users/taurenltd/Desktop/Tauren Group Projects/aico_construction/app/assets/stylesheets/home_carousel.scss */
+.contactUs {
+  font-family: 'clinica_proregular';
+  margin-top: 50px;
+  padding-left: 10%;
+  padding-right: 10%;
+  color: #FFFFFF;
+  border-color: #FFFFFF;
+}
+
+/* line 59, /Users/taurenltd/Desktop/Tauren Group Projects/aico_construction/app/assets/stylesheets/home_carousel.scss */
+.contactUs:hover {
+  font-family: 'clinica_proregular';
+  margin-top: 50px;
+  padding-left: 10%;
+  padding-right: 10%;
+  color: #FFFFFF;
+  background-color: #27627A;
+  border-color: #FFFFFF;
+}

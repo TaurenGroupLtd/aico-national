@@ -1,23 +1,115 @@
-.locationCard{
-  font-size: 0.8em;
+.adminLocationMgt{
+  padding-top: 25px;
+  padding-bottom: 25px;
+  border-bottom: 5px solid #27627A;
 }
 
-.card{
-  margin-bottom: 2%;
+.adminTableHeader{
+  font-size: 0.7em;
 }
 
-.viewLocation{
-  width: 50%;
+.locationSvcTrue{
+  color: green;
+}
+
+.locationSvcFalse{
+  color: red;
+}
+
+.locationsHeader{
+  padding-bottom: 3%;
+}
+.borderless td, .borderless th {
+    border: none;
+}
+
+.AdminBtn{
+  width: 100%;
+}
+
+.userLocationView{
+  height: 565px;
+  border-bottom: 5px solid #27627A;
+  overflow: scroll;
+}
+
+.cityHeader{
+  margin-left: 3%;
+  font-size: 1em;
+}
+
+.locationLink{
+  color: #2A3A5F;
+}
+.locationLink:hover{
+  color: #27627A;
+  text-decoration: none;
+}
+
+.tableMargin{
+  margin-left: 3%;
+}
+
+.tableItem{
+  font-size: 0.7em;
+}
+
+.tableSubItem{
+  font-size: 0.7em;
+}
+
+.table-borderless > tbody > tr > td,
+.table-borderless > tbody > tr > th,
+.table-borderless > tfoot > tr > td,
+.table-borderless > tfoot > tr > th,
+.table-borderless > thead > tr > td,
+.table-borderless > thead > tr > th {
+    border: none;
+}
+
+.table-condensed>thead>tr>th,
+.table-condensed>tbody>tr>th,
+.table-condensed>tfoot>tr>th,
+.table-condensed>thead>tr>td,
+.table-condensed>tbody>tr>td,
+.table-condensed>tfoot>tr>td {
+    padding: 0;
+}
+
+li.list-group-item{
+  padding: 0;
+}
+
+li.list-group-item.officeHeader{
+  text-align: center;
+  padding: 0;
+}
+
+.listGroupItem{
+  margin-right: 5px;
+  font-size: 0.7em;
+}
+
+.callBtn{
+  font-size: 0.7em;
+  width: 100%;
+}
+
+.locationsDivider{
+  height: 50px;
+  width: 100%;
+}
+
+.offeredIcon{
+  color: #006400;
+  margin-right: 10px;
+}
+
+.notOfferedIcon{
+  color: #cc0000;
+  margin-right: 10px;
 }
 
 .contactDisclaimer{
   font-size: 0.5em;
-}
-
-.locationsContainer{
-  padding-bottom: 50px;
-}
-
-.textBody{
-  height: 50px;
 }

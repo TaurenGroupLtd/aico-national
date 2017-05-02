@@ -1,0 +1,18 @@
+@font-face {
+  font-family: 'clinica_proregular';
+  src: url(/assets/clinicapro-regular-webfont-6d8e57b868b00531da5b34490c983b196cfe17fd32d36395266f0b98311b2c08.woff2) format("woff2"), url(/assets/clinicapro-regular-webfont-f3e914930b8ebeb342bf06c868f82ec81fda1ba1766b1d0f5c4216f18afb0a7e.woff) format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'latolight';
+  src: url(/assets/lato-light-webfont-13114f60ea73e115234fdb844f247c40e66de6d6731ce2cfaa4364e790535efb.woff2) format("woff2"), url(/assets/lato-light-webfont-ebd2d281df18382052a28b67171ab98d211a05bab779a693ed641c7dcdd2e92d.woff) format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'latoheavy';
+  src: url(/assets/lato-heavy-webfont-81bd11e31f8b32ac451eb098426b377ba09a6d0b83f7ea97b8e4eff6525d3514.woff2) format("woff2"), url(/assets/lato-heavy-webfont-1237c00bb7724ee3470c3adb13eb5956f71d198879523ebb1bffa6afad58b9d0.woff) format("woff");
+  font-weight: normal;
+  font-style: normal;
+}

@@ -1,0 +1,23 @@
+/* line 2, /Users/taurenltd/Desktop/Tauren Group Projects/aico_construction/app/assets/stylesheets/icons.scss */
+.svcIcon {
+  color: #27627A;
+}
+
+/* line 5, /Users/taurenltd/Desktop/Tauren Group Projects/aico_construction/app/assets/stylesheets/icons.scss */
+.svcText {
+  font-family: 'latoheavy';
+  color: #27627A;
+}
+
+@media screen and (min-width: 0em) {
+  /* line 13, /Users/taurenltd/Desktop/Tauren Group Projects/aico_construction/app/assets/stylesheets/icons.scss */
+  .svcIcon {
+    color: #27627A;
+  }
+
+  /* line 16, /Users/taurenltd/Desktop/Tauren Group Projects/aico_construction/app/assets/stylesheets/icons.scss */
+  .svcText {
+    font-family: 'latoheavy';
+    color: #27627A;
+  }
+}
