@@ -5,7 +5,7 @@ class LocationsController < ApplicationController
   # GET /locations
   # GET /locations.json
   def index
-    @locations = Location.all
+    @locations = Location.order('city ASC')
     @message = Message.new
 
     @hash = Gmaps4rails.build_markers(@locations) do |location, marker|
