@@ -1,5 +1,6 @@
 class Location < ApplicationRecord
-
+  extend FriendlyId
+  friendly_id :city, use: :slugged
   geocoded_by :street_address
   after_validation :geocode
 

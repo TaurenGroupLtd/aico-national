@@ -31,6 +31,8 @@ group :development, :production do
   gem 'geocoder'
   gem 'gmaps4rails'
   gem 'lodash-rails'
+  # Friendly URL
+  gem 'friendly_id', '~> 5.1.0'
 end
 
 group :development, :test do
